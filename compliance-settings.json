@@ -1,0 +1,23 @@
+{
+  "Rules": [
+    {
+      "SettingName": "IsAdmin",
+      "Operator": "IsEquals",
+      "DataType": "Boolean",
+      "Operand": false,
+      "MoreInfoUrl": "https://www.cyberark.com/resources/blog/why-no-user-should-have-local-admin-rights",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "The user is a local administrator",
+          "Description": "To stay secure, users should not have local administrator privileges unless absolutely necessary."
+        },
+        {
+          "Language": "nb_NO",
+          "Title": "Brukeren er en lokal administrator",
+          "Description": "For å opprettholde sikkerheten bør brukere ikke ha lokale administratorrettigheter med mindre det er absolutt nødvendig."
+        }
+      ]
+    }
+  ]
+}
